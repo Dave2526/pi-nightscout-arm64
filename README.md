@@ -5,7 +5,7 @@ Docker Image von [cgm-remote-monitor aka Nightscout](http://github.com/nightscou
 
 Aktuelle Version: 14.2.2
 
-Das Image kann bei [Docker Hub](https://hub.docker.com/r/dave2526/nightscout) geladen werden. Als zusätzlicher Container muss eine MongoDB z.B. [Mongo][https://hub.docker.com/_/mongo]  installiert werden, diese ist hier nicht enthalten.
+Das Image kann bei [Docker Hub](https://hub.docker.com/r/dave2526/nightscout) geladen werden. Als zusätzlicher Container muss eine MongoDB z.B. [Mongo](https://hub.docker.com/_/mongo)  installiert werden, diese ist hier nicht enthalten.
 
 Die Nightscout Variablen können ienfach mit übergeben werden, oder z.B. mit Portainer eingestellt werden.
 Mindestvariablen:
