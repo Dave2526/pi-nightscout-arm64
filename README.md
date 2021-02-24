@@ -9,8 +9,8 @@ Das Image kann bei [Docker Hub](https://hub.docker.com/r/dave2526/nightscout) ge
 
 Die Nightscout Variablen können einfach mit übergeben werden, oder z.B. mit Portainer eingestellt werden.
 Mindestvariablen:  
-MONGODB_URI=mongodb://<ip-des-mongo-containers>:27017/nightscout  
-API_SECRET=Passwort-mindestens-12-Stellen 
+MONGODB_URI= &lt; ip-des-mongo-containers &gt; :27017/nightscout  
+API_SECRET= &lt; Passwort-mindestens-12-Stellen &gt;  
 
 zum Start kann noch folgende Variable übergeben werden, da Nightscout nun Standard mäßig nur noch https:// verbindungen akzeptiert, im container sind allerdings keine Zertifikate integriert:  
 INSECURE_USE_HTTP=true  
